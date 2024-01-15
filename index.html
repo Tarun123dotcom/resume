@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body{
+            /* background: linear-gradient(180deg, #5A67A8 100%, #37458D 50.99%, #0324CF 0%);   */
+            background-color: black;
+        }
+        #btn{
+            width: 311px; 
+            height: 50px; 
+            left: 427px; 
+            top: 527px; 
+            position: absolute;
+            text-align: center;
+            color: rgb(43, 0, 255);
+            font-size: 35px;
+            font-family: Inter;
+            word-wrap: break-word;
+            cursor: pointer;
+            background: #000000;
+            font-weight: bold;
+            /* border-radius: 50px; */
+            text-decoration: none;
+            justify-content: center;
+            text-align: center;
+            border: 1px solid white;
+
+        }
+        #btn:hover{
+            background-color: white;
+            transition: 1s;
+        }
+        .Rectangle12{
+            cursor: pointer;
+        }
+
+        .themeChange img{
+            width: 50px;
+            height: 50px;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            cursor: pointer;
+
+        }
+      
+    </style>
+</head>
+<body>
+
+
+
+    <div class="Desktop4 ">
+        <div class="themeChange">
+            <img src="mrngMode.png" id="themer" alt="">
+        </div>
+        <img class="Mypic4" style="width: 236px; height: 213px; left: 1054px; top: 284px; position: absolute; border-radius: 350px" src="mypic.jpeg" />
+        <!-- <div class="Rectangle12" style="width: 351px; height: 106px; left: 406px; top: 543px; position: absolute; background: #D2D219; border-radius: 50px"></div> -->
+        <a href="details.html" id="btn">    
+            Know Me More
+        </a>
+        <div class="IAmTarun" style="width: 703px; height: 280px; left: 307px; top: 164px; position: absolute; color: white; font-size: 120px; font-family: Port Lligat Sans; font-weight: 400; word-wrap: break-word">I am Tarun !</div>
+      </div>   
+</body>
+<script>
+    var themeImg = document.getElementById("themer");
+    var btn = document.getElementById("btn");
+    var IAmTarun = document.getElementsByClassName("IAmTarun")[0];
+    var isDarkTheme = true;
+    var body = document.body;
+    themeImg.addEventListener("click",()=>{
+        if(isDarkTheme){
+            body.style.backgroundColor="white"
+            body.color="black";
+            btn.style.borderColor="black"
+            btn.style.backgroundColor="white"
+            IAmTarun.style.color = "black"
+            themeImg.src="nightMode.png";
+            console.log("White Mode")
+            btn.addEventListener("mouseover",()=>{
+                btn.style.backgroundColor="black"
+            })
+            btn.addEventListener("mouseout",()=>{
+                btn.style.backgroundColor="white"
+            })
+            isDarkTheme=false;
+           
+        }else{
+            IAmTarun.style.color = "white"
+            body.style.backgroundColor="black"
+            btn.style.backgroundColor="black"
+            btn.style.borderColor="white"
+            themeImg.src="mrngMode.png";
+            console.log("Dark Mode")
+            isDarkTheme=true; 
+        }
+    })
+
+</script>
+</html>
+
+
+

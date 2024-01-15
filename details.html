@@ -1,0 +1,1355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <style>
+    body{
+      background-color: black;
+      color: white;
+    }
+  .heading{
+    text-align: center;
+
+  }
+  .container{
+    margin-left: 10px;
+  }
+  .heading h2{
+    font-size: 47px;
+  }
+  .line{
+    border: 1px solid rgb(255, 255, 255);
+    width: 1119px;
+    margin-top: 0px;
+    position: absolute;
+    top:58px;
+    margin-left: 10px;
+  }
+  .contactDetails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    position: relative;
+    top: -46px;
+  }
+
+  .phNo {
+    flex: 1; /* Adjusted flex value to allow space for the "place" div */
+  }
+
+  .place {
+    flex: 1; /* Adjusted flex value to make it equal to the "phNo" div */
+    text-align: center; /* Align text to the right */
+    padding-right: 10px; /* Add some padding for spacing */
+  }
+  .project{
+    border: 1px solid white;
+    margin: 10px;
+    width: 1100px;
+  }
+  .certificates{
+    border: 1px solid white;
+    margin: 10px;
+    width: 1100px;
+  }
+  .education{
+    border: 1px solid white;
+    margin: 10px;
+    width: 1100px;
+  }
+  .skills{
+    border: 1px solid white;
+    margin: 10px;
+    width: 1100px;
+  }
+  .hobbies{
+    border: 1px solid white;
+    margin: 10px;
+    width: 1100px;
+  }
+  .workshops{
+    border: 1px solid white;
+    margin: 10px;
+    width: 1100px;
+  }
+  .strengths{
+    border: 1px solid white;
+    margin: 10px;
+    width: 1100px;
+  }
+  .projectBtn{
+    
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .certificateBtn{
+    
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .educationBtn{
+    
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .skillsBtn{
+    
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .hobbiesBtn{
+    
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .workshopsBtn{
+    
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .strengthsBtn{
+    
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .project h2{
+    margin-left: 10px;
+  }
+  .hobbies h2{
+    margin-left: 10px;
+  }
+  .certificates h2{
+    margin-left: 10px;
+  }
+  .education h2{
+    margin-left: 10px;
+  }
+  .skillsBtn h2{
+    margin-left: 10px;
+  }
+  .workshopsBtn h2{
+    margin-left: 10px;
+  }
+  .strengthsBtn h2{
+    margin-left: 10px;
+  }
+  .ri-arrow-drop-down {
+  position: relative;
+  width: 87px;
+  height: 68px;
+  left: 1110px;
+}
+
+.ri-arrow-drop-down #vector {
+  position: absolute;
+  width: 30px;
+  height: 16px;
+  top: 26px;
+  left: -152px;
+  transition: all 0.5s;
+}
+#vectorTwo {
+  width: 30px;
+  height: 16px;
+  margin-left: 10px;
+  margin-top: 1px;
+  transition: rotate 0.5s;
+}
+#vectorThree {
+  width: 30px;
+  height: 16px;
+  margin-left: 10px;
+  margin-top: 1px;
+  transition: rotate 0.5s;
+}
+#vectorFour {
+  width: 30px;
+  height: 16px;
+  margin-left: 10px;
+  margin-top: 1px;
+  transition: rotate 0.5s;
+}
+#vectorFive {
+  width: 30px;
+  height: 16px;
+  margin-left: 10px;
+  margin-top: 1px;
+  transition: rotate 0.5s;
+}
+#vectorSix {
+  width: 30px;
+  height: 16px;
+  margin-left: 10px;
+  margin-top: 1px;
+  transition: rotate 0.5s;
+}
+#vectorSeven {
+  width: 30px;
+  height: 16px;
+  margin-left: 10px;
+  margin-top: 1px;
+  transition: rotate 0.5s;
+}
+#vectorEight {
+  width: 30px;
+  height: 16px;
+  margin-left: 10px;
+  margin-top: 1px;
+  transition: rotate 0.5s;
+}
+#vectorNine {
+  width: 30px;
+  height: 16px;
+  margin-left: 10px;
+  margin-top: 1px;
+  transition: rotate 0.5s;
+}
+#vectorTen {
+  width: 30px;
+  height: 16px;
+  margin-left: 10px;
+  margin-top: 1px;
+  transition: rotate 0.5s;
+}
+#vectorEleven {
+  width: 30px;
+  height: 16px;
+  margin-left: 10px;
+  margin-top: 1px;
+  transition: rotate 0.5s;
+}
+#vectorTwelve {
+  width: 30px;
+  height: 16px;
+  margin-left: 10px;
+  margin-top: 1px;
+  transition: rotate 0.5s;
+}
+#vectorThirteen {
+  width: 30px;
+  height: 16px;
+  margin-left: 10px;
+  margin-top: 1px;
+  transition: rotate 0.5s;
+}
+#vectorFourteen{
+  width: 30px;
+  height: 16px;
+  margin-left: 10px;
+  margin-top: 1px;
+  transition: rotate 0.5s;
+}
+#vectorFifteen {
+  width: 30px;
+  height: 16px;
+  margin-left: 10px;
+  margin-top: 1px;
+  transition: rotate 0.5s;
+}
+#vectorSixteen {
+  width: 30px;
+  height: 16px;
+  margin-left: 10px;
+  margin-top: 1px;
+  transition: rotate 0.5s;
+}
+.label{
+  margin: 10px;
+}
+.labe2{
+  margin: 10px;
+}
+.labe3{
+  margin: 10px;
+}
+.labe4{
+  margin: 10px;
+}
+.labe5{
+  margin: 10px;
+}
+.labe6{
+  margin: 10px;
+}
+.labe7{
+  margin: 10px;
+}
+.labe8{
+  margin: 10px;
+}
+.labe9{
+  margin: 10px;
+}
+.labe10{
+  margin: 10px;
+}
+.labe11{
+  margin: 10px;
+}
+.labe12{
+  margin: 10px;
+}
+.labe13{
+  margin: 10px;
+}
+.labe14{
+  margin: 10px;
+}
+.labe15{
+  margin: 10px;
+}
+.labe16{
+  margin: 10px;
+}
+.labe17{
+  margin: 10px;
+}
+.labe18{
+  margin: 10px;
+}
+.labe19{
+  margin: 10px;
+}
+.labe20{
+  margin: 10px;
+}
+.labe21{
+  margin: 10px;
+}
+.nameBtn{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  
+}
+.nameBtn2{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  
+}
+.nameBtn3{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+
+}
+.nameBtn4{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+
+}
+.nameBtn5{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+
+}
+.nameBtn6{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+
+}
+.nameBtn7{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+
+}
+.nameBtn8{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+
+}
+.nameBtn9{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+
+}
+.nameBtn10{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+
+}
+.nameBtn11{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+
+}
+.nameBtn12{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+
+}
+.nameBtn13{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+
+}
+.nameBtn14{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+
+}
+.nameBtn15{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+
+}
+.nameBtn16{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+
+}
+.nameBtn17{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+
+}
+.nameBtn18{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+
+}
+.nameBtn19{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+
+}
+.nameBtn20{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+
+}
+.nameBtn21{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+
+}
+.stmContent{
+  margin-left: 20px;
+  display: none ;
+  transition: display 1s;
+}
+.mcContent{
+  display: none ;
+  margin-left: 20px;
+  transition: display 1s;
+}
+.heartContent{
+  display: none ;
+  margin-left: 20px;
+  transition: display 1s;
+}
+.angularContent{
+  display: none ;
+  margin-left: 20px;
+  transition: display 1s;
+}
+.udemyContent{
+  display: none ;
+  margin-left: 20px;
+  transition: display 1s;
+}
+.hackerrankContent{
+  display: none ;
+  margin-left: 20px;
+  transition: display 1s;
+}
+.tenthContent{
+  display: none ;
+  margin-left: 20px;
+  transition: display 1s;
+}
+.interContent{
+  display: none ;
+  margin-left: 20px;
+  transition: display 1s;
+}
+.btechContent{
+  display: none ;
+  margin-left: 20px;
+  transition: display 1s;
+}
+.projectsDrawer{
+  display: none;
+}
+.certificateDrawer{
+  display: none;
+}
+.educationDrawer{
+  display: none;
+}
+.skillsDrawer{
+  display: none;
+}
+.hobbiesDrawer{
+  display: none;
+}
+.workshopsDrawer{
+  display: none;
+}
+.strengthsDrawer{
+  display: none;
+}
+.certificateDropDown{
+  position: relative;
+  width: 87px;
+  height: 68px;
+  left: 892px;
+  top: 28px;
+
+}
+.educationDropDown{
+  position: relative;
+  width: 87px;
+  height: 68px;
+  left: 778px;
+  top: 28px;
+
+}
+.skillsDropDown{
+  position: relative;
+  width: 87px;
+  height: 68px;
+  left: 976px;
+  top: 28px;
+
+}
+.hobbiesDropDown{
+  position: relative;
+  width: 87px;
+  height: 68px;
+  left: 951px;
+  top: 28px;
+
+}
+.workshopsDropDown{
+  position: relative;
+  width: 87px;
+  height: 68px;
+  left: 920px;
+  top: 28px;
+
+}
+.strengthsDropDown{
+  position: relative;
+  width: 87px;
+  height: 68px;
+  left: 937px;
+  top: 28px;
+
+}
+.divBack{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  width: 100px;
+  cursor: pointer;
+}
+#back{
+  text-decoration: none;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+/* #back:hover{
+  background-color: white;
+  transition: 1s;
+} */
+.backBtn:hover{
+  background-color: white;
+  transition: 0.5s;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+  border: 1px solid white;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid white;
+
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #000000;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.ChakkilamTarunSiddardha{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: 10px;
+}
+#themer{
+            width: 50px;
+            height: 50px;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            cursor: pointer;
+
+}
+#designPic{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 300px;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="ChakkilamTarunSiddardha" style="width: 708px; height: 108px; text-align: center; color: rgb(255, 255, 255); font-size: 35px; font-family: Inter; font-weight: 800; word-wrap: break-word">Chakkilam Tarun Siddardha
+      <div class="themeChanger">
+          <img src="mrngMode.png" id="themer" alt="">
+     
+      </div>
+    
+    </div>
+    <div class="line"></div>
+    <div class="contactDetails">
+      <div class="phNo">
+        <p>Ph No: 9010607335<br> Email: tarunchakkilam02@gmail.com </p>
+      </div>
+      <div class="place">
+          <p>Darsi, 523247</p>
+      </div>
+    </div>
+    <div class="mypic">
+      <img class="Mypic2" style="width: 156px; height: 155px; left: 1203px; top: 29px; position: absolute; border-radius: 350px" src="mypic.jpeg" />  
+    </div>
+    <!-- Projects Segment -->
+    <div class="project">
+      <div class="projectBtn">
+        <h2>Projects</h2>
+        <div class="ri-arrow-drop-down"><img id="vector" src="dropdown.png" /></div>        
+      </div>
+      <div class="projectsDrawer">
+        <div class="label">
+          <div class="nameBtn">
+            <div class="text-wrapper">1. Secure Travelling Management System</div>
+            <div ><img id="vectorTwo" src="dropdown.png" /></div>
+          </div>     
+          <div class="stmContent">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae laborum, nisi repudiandae, nam quo excepturi maxime repellat veritatis vero labore enim odit dolores aliquid, quis culpa ex eveniet quia nostrum. Facere harum praesentium porro fuga?</p>
+          </div>
+        </div>
+        <div class="labe2">
+          <div class="nameBtn2">
+            <div class="text-wrapper">2. Industrial Monitering and Controlling System</div>
+            <div ><img id="vectorThree" src="dropdown.png" /></div>        
+          </div>
+          <div class="mcContent">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae laborum, nisi repudiandae, nam quo excepturi maxime repellat veritatis vero labore enim odit dolores aliquid, quis culpa ex eveniet quia nostrum. Facere harum praesentium porro fuga?</p>
+          </div>
+          
+        </div>
+        <div class="labe3">
+          <div class="nameBtn3">
+            <div class="text-wrapper">3. Heast Disease Pridiction System</div>
+            <div ><img id="vectorFour" src="dropdown.png" /></div>        
+          </div>
+          <div class="heartContent">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae laborum, nisi repudiandae, nam quo excepturi maxime repellat veritatis vero labore enim odit dolores aliquid, quis culpa ex eveniet quia nostrum. Facere harum praesentium porro fuga?</p>
+          </div>
+          
+        </div>
+
+      </div>
+  
+    </div>
+    <!-- Certificates Segment -->
+    <div class="certificates">
+      <div class="certificateBtn">
+        <h2>Certifications</h2>
+        <div class="certificateDropDown"><img id="vectorFive" src="dropdown.png" /></div>        
+      </div>
+      <div class="certificateDrawer">
+        <div class="labe4">
+          <div class="nameBtn4">
+            <div class="text-wrapper">1. Angular Full Guide(2023) by UDEMY</div>
+            <div ><img id="vectorSix" src="dropdown.png" /></div>
+          </div>     
+          <div class="angularContent">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae laborum, nisi repudiandae, nam quo excepturi maxime repellat veritatis vero labore enim odit dolores aliquid, quis culpa ex eveniet quia nostrum. Facere harum praesentium porro fuga?</p>
+          </div>
+        </div>
+        <div class="labe5">
+          <div class="nameBtn5">
+            <div class="text-wrapper">2. Java Complete Course By UDEMY</div>
+            <div ><img id="vectorSeven" src="dropdown.png" /></div>        
+          </div>
+          <div class="udemyContent">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae laborum, nisi repudiandae, nam quo excepturi maxime repellat veritatis vero labore enim odit dolores aliquid, quis culpa ex eveniet quia nostrum. Facere harum praesentium porro fuga?</p>
+          </div>
+          
+        </div>
+        <div class="labe6">
+          <div class="nameBtn6">
+            <div class="text-wrapper">3. Java Certificate by Hackerrank</div>
+            <div ><img id="vectorEight" src="dropdown.png" /></div>        
+          </div>
+          <div class="hackerrankContent">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae laborum, nisi repudiandae, nam quo excepturi maxime repellat veritatis vero labore enim odit dolores aliquid, quis culpa ex eveniet quia nostrum. Facere harum praesentium porro fuga?</p>
+          </div>
+          
+        </div>
+
+      </div>
+  
+    </div>
+    <!-- Educational Segment -->
+    <div class="education">
+      <div class="educationBtn">
+        <h2>Educational Background</h2>
+        <div class="educationDropDown"><img id="vectorNine" src="dropdown.png" /></div>        
+      </div>
+      <div class="educationDrawer">
+        <div class="labe7">
+          <div class="nameBtn7">
+            <div class="text-wrapper">1. 10th Class &nbsp; &#8594; &nbsp; 10.0/ 10.0</div>
+            <div ><img id="vectorTen" src="dropdown.png" /></div>
+          </div>     
+          <div class="tenthContent">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae laborum, nisi repudiandae, nam quo excepturi maxime repellat veritatis vero labore enim odit dolores aliquid, quis culpa ex eveniet quia nostrum. Facere harum praesentium porro fuga?</p>
+          </div>
+        </div>
+        <div class="labe8">
+          <div class="nameBtn8">
+            <div class="text-wrapper">2. 12th Class &nbsp; &#8594; &nbsp; 981 / 1000</div>
+            <div ><img id="vectorEleven" src="dropdown.png" /></div>        
+          </div>
+          <div class="interContent">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae laborum, nisi repudiandae, nam quo excepturi maxime repellat veritatis vero labore enim odit dolores aliquid, quis culpa ex eveniet quia nostrum. Facere harum praesentium porro fuga?</p>
+          </div>
+          
+        </div>
+        <div class="labe9">
+          <div class="nameBtn9">
+            <div class="text-wrapper">3. Integrated Mtech CSE in Collaboration With Virtusa</div>
+            <div ><img id="vectorTwelve" src="dropdown.png" /></div>        
+          </div>
+          <div class="btechContent">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae laborum, nisi repudiandae, nam quo excepturi maxime repellat veritatis vero labore enim odit dolores aliquid, quis culpa ex eveniet quia nostrum. Facere harum praesentium porro fuga?</p>
+          </div>
+          
+        </div>
+
+      </div>
+  
+    </div>
+    <!-- Skills Segment -->
+    <div class="skills">
+      <div class="skillsBtn">
+        <h2>Skills</h2>
+        <div class="skillsDropDown"><img id="vectorThirteen" src="dropdown.png" /></div>        
+      </div>
+      <div class="skillsDrawer">
+        <div class="labe10">
+          <div class="nameBtn10">
+            <div class="text-wrapper">1. Java &#8594; 3 Years Experiance </div>
+          </div>     
+         
+        </div>
+        <div class="labe11">
+          <div class="nameBtn11">
+            <div class="text-wrapper">2.Python &#8594; &nbsp; 2 Years Experiance</div>
+          </div>
+          
+          
+        </div>
+        <div class="labe12">
+          <div class="nameBtn12">
+            <div class="text-wrapper">3. Front End Development &#8594; 2 Years Experience </div>
+          </div>
+        </div>
+        <div class="labe12">
+          <div class="nameBtn12">
+            <div class="text-wrapper">4. Back End Development &#8594;  Begginer  </div>
+          </div>
+        </div>
+
+      </div>
+  
+    </div>
+
+    <!-- Hobbies Section -->
+    <div class="hobbies">
+      <div class="hobbiesBtn">
+        <h2>Hobbies</h2>
+        <div class="hobbiesDropDown"><img id="vectorFourteen" src="dropdown.png" /></div>        
+      </div>
+      <div class="hobbiesDrawer">
+        <div class="labe13">
+          <div class="nameBtn13">
+            <div class="text-wrapper">1. Painting </div>
+          </div>     
+         
+        </div>
+        <div class="labe14">
+          <div class="nameBtn14">
+            <div class="text-wrapper">2.Analysing Politics</div>
+          </div>
+          
+          
+        </div>
+        <div class="labe15">
+          <div class="nameBtn15">
+            <div class="text-wrapper">3.Reading Books </div>
+          </div>
+        </div>
+
+      </div>
+  
+    </div>
+    <!-- Workshops Section -->
+    <div class="workshops">
+      <div class="workshopsBtn">
+        <h2>Workshops</h2>
+        <div class="workshopsDropDown"><img id="vectorFifteen" src="dropdown.png" /></div>        
+      </div>
+      <div class="workshopsDrawer">
+        <div class="labe16">
+          <div class="nameBtn16">
+            <div class="text-wrapper">1. Second Award in Code Craft Event by ACM club </div>
+          </div>     
+         
+        </div>
+        <div class="labe17">
+          <div class="nameBtn17">
+            <div class="text-wrapper">2.Participated in Geekthon by GeeksForGreeks Club</div>
+          </div>
+          
+          
+        </div>
+        <div class="labe18">
+          <div class="nameBtn18">
+            <div class="text-wrapper">3.Participated in Several Art Exhibitions   </div>
+          </div>
+        </div>
+
+      </div>
+  
+    </div>
+    <!-- Strengths Section -->
+    <div class="strengths">
+      <div class="strengthsBtn">
+        <h2>Strengths</h2>
+        <div class="strengthsDropDown"><img id="vectorSixteen" src="dropdown.png" /></div>        
+      </div>
+      <div class="strengthsDrawer">
+        <div class="labe19">
+          <div class="nameBtn19">
+            <div class="text-wrapper">1. Second Award in Code Craft Event by ACM club </div>
+          </div>     
+         
+        </div>
+        <div class="labe20">
+          <div class="nameBtn20">
+            <div class="text-wrapper">2.Participated in Geekthon by GeeksForGreeks Club</div>
+          </div>
+          
+          
+        </div>
+        <div class="labe21">
+          <div class="nameBtn21">
+            <div class="text-wrapper">3.Participated in Several Art Exhibitions   </div>
+          </div>
+        </div>
+
+      </div>
+  
+    </div>
+    <div class="divBack">
+      <div class="backBtn">
+        <a href="index.html" id="back">Back</a>
+      </div>
+    </div>
+    <div class="design">
+      <img src="design-removebg-preview.png" id="designPic" alt="">
+    </div>
+  </div>
+</body>
+<script>
+  // ProjectBtn
+  var projectBtn = document.getElementsByClassName("projectBtn");
+  var projectsDrawer = document.getElementsByClassName("projectsDrawer");
+  var projectsDrawerisOpen=false;
+  var img1 = document.getElementById("vector");
+  var rotateAngle1=0;  
+  function toggleprojectContent(index){
+    projectsDrawerisOpen=!projectsDrawerisOpen;
+    projectsDrawer[index].style.display=projectsDrawerisOpen ? "block":"none";
+    rotateAngle1+=180
+    img1.style.rotate=rotateAngle1+"deg";
+  }
+  for(var i=0;i<projectBtn.length;i++){
+    projectBtn[i].addEventListener("click",function(event){
+      var index = Array.from(projectBtn).indexOf(event.currentTarget);
+      toggleprojectContent(index);
+    });
+  }
+  //firstProject
+  var stmProjectBtn = document.getElementsByClassName("nameBtn");
+  var stmContent = document.getElementsByClassName("stmContent");
+  var stmIsOpen = false;
+  var img2 = document.getElementById("vectorTwo");
+  var rotateAngle2=0;
+  function togglestmContent(index) {
+    stmIsOpen = !stmIsOpen;
+    stmContent[index].style.display = stmIsOpen ? "block" : "none";
+    rotateAngle2+=180
+    img2.style.rotate=rotateAngle2+"deg";
+  }
+  for (var i = 0; i < stmProjectBtn.length; i++) {
+    stmProjectBtn[i].addEventListener("click", function (event) {
+      var index = Array.from(stmProjectBtn).indexOf(event.currentTarget);
+      togglestmContent(index);
+    });
+  }
+  //SecondProject
+  var mcProjectBtn = document.getElementsByClassName("nameBtn2");
+  var mcContent = document.getElementsByClassName("mcContent");
+
+  var mcIsOpen = false;
+  var img3 = document.getElementById("vectorThree");
+  var rotateAngle3=0;
+  function togglemcContent(index) {
+    mcIsOpen = !mcIsOpen;
+    mcContent[index].style.display = mcIsOpen ? "block" : "none";
+    rotateAngle3+=180
+    img3.style.rotate=rotateAngle3+"deg";
+  }
+  for (var i = 0; i < mcProjectBtn.length; i++) {
+    mcProjectBtn[i].addEventListener("click", function (event) {
+      var index = Array.from(mcProjectBtn).indexOf(event.currentTarget);
+      togglemcContent(index);
+    });
+  }
+  //ThirdProject
+  var heartProjectBtn = document.getElementsByClassName("nameBtn3");
+  var heartContent = document.getElementsByClassName("heartContent");
+  var heartIsOpen = false;
+  var img4 = document.getElementById("vectorFour");
+  var rotateAngle4=0;
+  function toggleheartContent(index) {
+    heartIsOpen = !heartIsOpen;
+    heartContent[index].style.display = heartIsOpen ? "block" : "none";
+    rotateAngle4+=180
+    img4.style.rotate=rotateAngle4+"deg";
+  }
+  for (var i = 0; i < heartProjectBtn.length; i++) {
+    heartProjectBtn[i].addEventListener("click", function (event) {
+      var index = Array.from(heartProjectBtn).indexOf(event.currentTarget);
+      toggleheartContent(index);
+    });
+  }
+
+  // CertificateBtn
+  var certificateBtn = document.getElementsByClassName("certificateBtn");
+  var certificateDrawer = document.getElementsByClassName("certificateDrawer");
+  var certificateDrawerisOpen=false;
+  var img5 = document.getElementById("vectorFive");
+  var rotateAngle5=0;  
+  function togglecertificateContent(index){
+    certificateDrawerisOpen=!certificateDrawerisOpen;
+    certificateDrawer[index].style.display=certificateDrawerisOpen ? "block":"none";
+    rotateAngle5+=180
+    img5.style.rotate=rotateAngle5+"deg";
+  }
+  for(var i=0;i<certificateBtn.length;i++){
+    certificateBtn[i].addEventListener("click",function(event){
+      var index = Array.from(certificateBtn).indexOf(event.currentTarget);
+      togglecertificateContent(index);
+    })};
+    
+    // First Certificate
+    var angularCertificateBtn = document.getElementsByClassName("nameBtn4");
+    var angularContent = document.getElementsByClassName("angularContent");
+    var angularIsOpen = false;
+    var img7 = document.getElementById("vectorSix");
+    var rotateAngle7=0;
+    function toggleangularContent(index) {
+      angularIsOpen = !angularIsOpen;
+      angularContent[index].style.display = angularIsOpen ? "block" : "none";
+      rotateAngle7+=180
+      img7.style.rotate=rotateAngle7+"deg";
+    }
+    for (var i = 0; i < angularCertificateBtn.length; i++) {
+      angularCertificateBtn[i].addEventListener("click", function (event) {
+        var index = Array.from(angularCertificateBtn).indexOf(event.currentTarget);
+        toggleangularContent(index);
+      });
+    }
+
+    //Second Certificate
+    var udemyCertificateBtn = document.getElementsByClassName("nameBtn5");
+    var udemyContent = document.getElementsByClassName("udemyContent");
+    var udemyIsOpen = false;
+    var img6 = document.getElementById("vectorSeven");
+    var rotateAngle6=0;
+    function toggleudemyContent(index) {
+      udemyIsOpen = !udemyIsOpen;
+      udemyContent[index].style.display = udemyIsOpen ? "block" : "none";
+      rotateAngle6+=180
+      img6.style.rotate=rotateAngle6+"deg";
+    }
+    for (var i = 0; i < udemyCertificateBtn.length; i++) {
+      udemyCertificateBtn[i].addEventListener("click", function (event) {
+        var index = Array.from(udemyCertificateBtn).indexOf(event.currentTarget);
+        toggleudemyContent(index);
+      });
+    }
+    
+
+    //Third Certificate
+    var hackerCertificateBtn = document.getElementsByClassName("nameBtn6");
+    var hackerrankContent = document.getElementsByClassName("hackerrankContent");
+    var hackerIsOpen = false;
+    var img8 = document.getElementById("vectorEight");
+    var rotateAngle8=0;
+    function togglehackerContent(index) {
+      hackerIsOpen = !hackerIsOpen;
+      hackerrankContent[index].style.display = hackerIsOpen ? "block" : "none";
+      rotateAngle8+=180
+      img8.style.rotate=rotateAngle8+"deg";
+    }
+    for (var i = 0; i < hackerCertificateBtn.length; i++) {
+      hackerCertificateBtn[i].addEventListener("click", function (event) {
+        var index = Array.from(hackerCertificateBtn).indexOf(event.currentTarget);
+        togglehackerContent(index);
+      });
+    }
+     // Education Btn
+  var educationBtn = document.getElementsByClassName("educationBtn");
+  var educationDrawer = document.getElementsByClassName("educationDrawer");
+  var educationDrawerisOpen=false;
+  var img9 = document.getElementById("vectorNine");
+  var rotateAngle9=0;  
+  function toggleeducationContent(index){
+    educationDrawerisOpen=!educationDrawerisOpen;
+    educationDrawer[index].style.display=educationDrawerisOpen ? "block":"none";
+    rotateAngle9+=180
+    img9.style.rotate=rotateAngle9+"deg";
+  }
+  for(var i=0;i<educationBtn.length;i++){
+    educationBtn[i].addEventListener("click",function(event){
+      var index = Array.from(educationBtn).indexOf(event.currentTarget);
+      toggleeducationContent(index);
+    })};
+        //First Education
+    var tenthBtn = document.getElementsByClassName("nameBtn7");
+    var tenthContent = document.getElementsByClassName("tenthContent");
+    var tenthIsOpen = false;
+    var img10 = document.getElementById("vectorTen");
+    var rotateAngle10=0;
+    function toggletenthContent(index) {
+      tenthIsOpen = !tenthIsOpen;
+      tenthContent[index].style.display = tenthIsOpen ? "block" : "none";
+      rotateAngle10+=180
+      img10.style.rotate=rotateAngle10+"deg";
+    }
+    for (var i = 0; i < tenthBtn.length; i++) {
+      tenthBtn[i].addEventListener("click", function (event) {
+        var index = Array.from(tenthBtn).indexOf(event.currentTarget);
+        toggletenthContent(index);
+      });
+    }
+        //Second Education
+    var interBtn = document.getElementsByClassName("nameBtn8");
+    var interContent = document.getElementsByClassName("interContent");
+    var interIsOpen = false;
+    var img11 = document.getElementById("vectorEleven");
+    var rotateAngle11=0;
+    function toggleinterContent(index) {
+      interIsOpen = !interIsOpen;
+      interContent[index].style.display = interIsOpen ? "block" : "none";
+      rotateAngle11+=180
+      img11.style.rotate=rotateAngle11+"deg";
+    }
+    for (var i = 0; i < interBtn.length; i++) {
+      interBtn[i].addEventListener("click", function (event) {
+        var index = Array.from(interBtn).indexOf(event.currentTarget);
+        toggleinterContent(index);
+      });
+    }
+        //Third Education
+    var btechBtn = document.getElementsByClassName("nameBtn9");
+    var btechContent = document.getElementsByClassName("btechContent");
+    var btechIsOpen = false;
+    var img12 = document.getElementById("vectorTwelve");
+    var rotateAngle12=0;
+    function togglebtechContent(index) {
+      btechIsOpen = !btechIsOpen;
+      btechContent[index].style.display = btechIsOpen ? "block" : "none";
+      rotateAngle12+=180
+      img12.style.rotate=rotateAngle12+"deg";
+    }
+    for (var i = 0; i < btechBtn.length; i++) {
+      btechBtn[i].addEventListener("click", function (event) {
+        var index = Array.from(btechBtn).indexOf(event.currentTarget);
+        togglebtechContent(index);
+      });
+    }
+      // SkillsBtn
+  var skillsBtn = document.getElementsByClassName("skillsBtn");
+  var skillsDrawer = document.getElementsByClassName("skillsDrawer");
+  var skillsDrawerisOpen=false;
+  var img13 = document.getElementById("vectorThirteen");
+  var rotateAngle13=0;  
+  function toggleskillsContent(index){
+    skillsDrawerisOpen=!skillsDrawerisOpen;
+    skillsDrawer[index].style.display=skillsDrawerisOpen ? "block":"none";
+    rotateAngle13+=180
+    img13.style.rotate=rotateAngle13+"deg";
+  }
+  for(var i=0;i<skillsBtn.length;i++){
+    skillsBtn[i].addEventListener("click",function(event){
+      var index = Array.from(skillsBtn).indexOf(event.currentTarget);
+      toggleskillsContent(index);
+    })};
+      // hobbiesBtn
+  var hobbiesBtn = document.getElementsByClassName("hobbiesBtn");
+  var hobbiesDrawer = document.getElementsByClassName("hobbiesDrawer");
+  var hobbiesDrawerisOpen=false;
+  var img14 = document.getElementById("vectorFourteen");
+  var rotateAngle14=0;  
+  function togglehobbiesContent(index){
+    hobbiesDrawerisOpen=!hobbiesDrawerisOpen;
+    hobbiesDrawer[index].style.display=hobbiesDrawerisOpen ? "block":"none";
+    rotateAngle14+=180
+    img14.style.rotate=rotateAngle14+"deg";
+  }
+  for(var i=0;i<hobbiesBtn.length;i++){
+    hobbiesBtn[i].addEventListener("click",function(event){
+      var index = Array.from(hobbiesBtn).indexOf(event.currentTarget);
+      togglehobbiesContent(index);
+    })};
+      // workshopsBtn
+  var workshopsBtn = document.getElementsByClassName("workshopsBtn");
+  var workshopsDrawer = document.getElementsByClassName("workshopsDrawer");
+  var workshopsDrawerisOpen=false;
+  var img15 = document.getElementById("vectorFifteen");
+  var rotateAngle15=0;  
+  function toggleworkshopsContent(index){
+    workshopsDrawerisOpen=!workshopsDrawerisOpen;
+    workshopsDrawer[index].style.display=workshopsDrawerisOpen ? "block":"none";
+    rotateAngle15+=180
+    img15.style.rotate=rotateAngle15+"deg";
+  }
+  for(var i=0;i<workshopsBtn.length;i++){
+    workshopsBtn[i].addEventListener("click",function(event){
+      var index = Array.from(workshopsBtn).indexOf(event.currentTarget);
+      toggleworkshopsContent(index);
+    })};
+      // strengthsBtn
+  var strengthsBtn = document.getElementsByClassName("strengthsBtn");
+  var strengthsDrawer = document.getElementsByClassName("strengthsDrawer");
+  var strengthsDrawerisOpen=false;
+  var img16 = document.getElementById("vectorSixteen");
+  var rotateAngle16=0;  
+  function togglestrengthsContent(index){
+    strengthsDrawerisOpen=!strengthsDrawerisOpen;
+    strengthsDrawer[index].style.display=strengthsDrawerisOpen ? "block":"none";
+    rotateAngle16+=180
+    img16.style.rotate=rotateAngle16+"deg";
+  }
+  for(var i=0;i<strengthsBtn.length;i++){
+    strengthsBtn[i].addEventListener("click",function(event){
+      var index = Array.from(strengthsBtn).indexOf(event.currentTarget);
+      togglestrengthsContent(index);
+    })};
+
+    // Back Button div
+    var backBtn = document.getElementsByClassName("backBtn")[0];
+    backBtn.addEventListener("click",function(){
+      window.location.href="index.html "
+      console.log("Clicked")
+    })
+    // Theme Change
+    var themeImg = document.getElementById("themer");
+    var backBtn = document.getElementsByClassName("backBtn")[0];
+    var project = document.getElementsByClassName("project")[0]
+    var certificates = document.getElementsByClassName("certificates")[0]
+    var education = document.getElementsByClassName("education")[0]
+    var skills = document.getElementsByClassName("skills")[0]
+    var hobbies = document.getElementsByClassName("hobbies")[0]
+    var workshops = document.getElementsByClassName("workshops")[0]
+    var strengths = document.getElementsByClassName("strengths")[0]
+    var line = document.getElementsByClassName("line")[0]
+ 
+    var chakkilamTarunSiddardha = document.getElementsByClassName("ChakkilamTarunSiddardha")[0];
+    var isDarkTheme = true;
+    var body = document.body;
+    themeImg.addEventListener("click",()=>{
+        if(isDarkTheme){
+            body.style.backgroundColor="white"
+            body.style.color="black";
+            project.style.borderColor="black"
+            certificates.style.borderColor="black"
+            education.style.borderColor="black"
+            skills.style.borderColor="black"
+            hobbies.style.borderColor="black"
+            workshops.style.borderColor="black"
+            strengths.style.borderColor="black"
+            line.style.borderColor="black"
+            backBtn.style.borderColor="black"
+            img1.src="dropdownBlack.png"
+            img2.src="dropdownBlack.png"
+            img3.src="dropdownBlack.png"
+            img4.src="dropdownBlack.png"
+            img5.src="dropdownBlack.png"
+            img6.src="dropdownBlack.png"
+            img7.src="dropdownBlack.png"
+            img8.src="dropdownBlack.png"
+            img9.src="dropdownBlack.png"
+            img10.src="dropdownBlack.png"
+            img11.src="dropdownBlack.png"
+            img12.src="dropdownBlack.png"
+            img13.src="dropdownBlack.png"
+            img14.src="dropdownBlack.png"
+            img15.src="dropdownBlack.png"
+            img16.src="dropdownBlack.png"
+            chakkilamTarunSiddardha.style.color="black"
+            backBtn.addEventListener("mouseover",()=>{
+              backBtn.style.backgroundColor="black"
+            })
+            backBtn.addEventListener("mouseout",()=>{
+              backBtn.style.backgroundColor="white"
+            })
+            themeImg.src="nightMode.png";
+            console.log("White Mode")
+            isDarkTheme=false;
+            
+          }else{
+            chakkilamTarunSiddardha.style.color="white"
+            project.style.borderColor="white"
+            certificates.style.borderColor="white"
+            education.style.borderColor="white"
+            skills.style.borderColor="white"
+            hobbies.style.borderColor="white"
+            workshops.style.borderColor="white"
+            strengths.style.borderColor="white"
+            line.style.borderColor="white"
+            backBtn.style.borderColor="white"
+            body.style.backgroundColor="black"
+            body.style.color="white"
+            themeImg.src="mrngMode.png";
+            console.log("Dark Mode")
+            backBtn.addEventListener("mouseover",()=>{
+              backBtn.style.backgroundColor="white"
+            })
+            backBtn.addEventListener("mouseout",()=>{
+              backBtn.style.backgroundColor="black"
+            })
+            img1.src="dropdown.png"
+            img2.src="dropdown.png"
+            img3.src="dropdown.png"
+            img4.src="dropdown.png"
+            img5.src="dropdown.png"
+            img6.src="dropdown.png"
+            img7.src="dropdown.png"
+            img8.src="dropdown.png"
+            img9.src="dropdown.png"
+            img10.src="dropdown.png"
+            img11.src="dropdown.png"
+            img12.src="dropdown.png"
+            img13.src="dropdown.png"
+            img14.src="dropdown.png"
+            img15.src="dropdown.png"
+            img16.src="dropdown.png"
+            isDarkTheme=true; 
+        }
+    })
+</script>
+
+</html>
